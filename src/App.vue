@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <h1>HelloWorld.</h1>
-    <Button />
+    <Button 
+    :onClick = registerUser>
+    登録
+    </Button>
   </div>
 </template>
 
@@ -12,7 +15,16 @@ export default {
   name: 'App',
   components: {
     Button
+  },
+  setup(){
+    const registerUser = () => {
+      console.log("ok");
+    }
+    return {
+      registerUser
+    }
   }
+
 }
 </script>
 
