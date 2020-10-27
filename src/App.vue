@@ -1,5 +1,5 @@
 <template>
-  <div id="ap">
+  <div id="app">
     <h1>HelloWorld.</h1>
   </div>
 </template>
